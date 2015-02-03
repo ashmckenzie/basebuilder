@@ -4,7 +4,7 @@
 
 from	ubuntu:14.04
 run	apt-get update
-run DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes python-software-properties wget
+run  apt-get install -y --force-yes software-properties-common wget
 run	wget http://github.com/ashmckenzie/basebuilder/tarball/master -O basebuilder.tar.gz --no-check-certificate
 run	mkdir /var/lib/tsuru
 run	tar -xvf basebuilder.tar.gz -C /var/lib/tsuru --strip 1
