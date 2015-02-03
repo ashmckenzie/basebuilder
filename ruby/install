@@ -3,6 +3,8 @@
 SOURCE_DIR=/var/lib/tsuru
 $SOURCE_DIR/base/install
 
+DEBIAN_FRONTEND=noninteractive apt-get install -qqy python-software-properties
+
 add-apt-repository ppa:brightbox/ruby-ng -y
 
 apt-get update
