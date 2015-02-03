@@ -1,6 +1,6 @@
 # this file describes how to build tsuru ruby image
 # to run it:
-# 1 - tsuru-admin platform-add ruby -d https://raw.github.com/tsuru/basebuilder/master/ruby/Dockerfile
+# 1 - tsuru-admin platform-add ruby -d https://raw.github.com/ashmckenzie/basebuilder/master/ruby/Dockerfile
 
 from	ubuntu:14.04
 run	apt-get update
